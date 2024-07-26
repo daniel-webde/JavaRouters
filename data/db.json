@@ -1,0 +1,52 @@
+{
+  "career": [
+    {
+      "id": 1,
+      "title": "Senior React Developer",
+      "salary": 50000,
+      "location": "London, Uk"
+    },
+    {
+      "id": 2,
+      "title": "Senior Node Developer",
+      "salary": 54000,
+      "location": "Toronto, Canada"
+    },
+    {
+      "id": 3,
+      "title": "Junior React Developer",
+      "salary": 30000,
+      "location": "Nairobi, KE"
+    },
+    {
+      "id": 4,
+      "title": "Senior Data Analyst",
+      "salary": 58000,
+      "location": "Texas, USA"
+    },
+    {
+      "id": 5,
+      "title": "Senior React Developer",
+      "salary": 48000,
+      "location": "Australia"
+    },
+    {
+      "id": 6,
+      "title": "Senior React Developer",
+      "salary": 50000,
+      "location": "London, Uk"
+    },
+    {
+      "id": 7,
+      "title": "Senior Promt Engineer",
+      "salary": 45000,
+      "location": "London, Uk"
+    },
+    {
+      "id": 8,
+      "title": "Junior React Developer",
+      "salary": 50000,
+      "location": "Nairobi, KE"
+    }
+  ]
+}
