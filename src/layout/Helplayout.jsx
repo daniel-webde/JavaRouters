@@ -11,13 +11,13 @@ const Helplayout = () => {
       <nav className="font-serif font-semibold">
         <NavLink
           to="faq"
-          className="m-4 md:m-6 px-3 border-b-2 rounded-md [&.active]:bg-orange-500 [&.active]:text-white transition-colors duration-500"
+          className="m-4 md:m-6 px-3 border-b-2 rounded-md [&.active]:bg-orange-500 [&.active]:text-white [&.active]:border-orange-500 [&.active]:shadow-md [&.active]:shadow-slate-400  transition-colors duration-500"
         >
           FAQ
         </NavLink>
         <NavLink
           to="contact"
-          className="m-4 md:m-6 px-2 border-b-2 rounded-md [&.active]:bg-orange-500 [&.active]:text-white transition-colors duration-500"
+          className="m-4 md:m-6 px-2 border-b-2 rounded-md [&.active]:bg-orange-500 [&.active]:text-white [&.active]:border-orange-500 [&.active]:shadow-md [&.active]:shadow-slate-400 transition-colors duration-500"
         >
           Contact us
         </NavLink>

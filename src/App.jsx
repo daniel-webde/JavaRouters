@@ -35,7 +35,8 @@ function App() {
 
         <Route path="*" element={<NoPage />} />
       </Route>
-    )
+    ),
+    { basename: "/{repository-name}" } // Add the basename
   );
 
   return <RouterProvider router={router} />;
