@@ -36,7 +36,7 @@ function App() {
         <Route path="*" element={<NoPage />} />
       </Route>
     ),
-    { basename: "/{repository-name}" } // Add the basename
+    { basename: "/JavaRouters" } // Add the basename
   );
 
   return <RouterProvider router={router} />;
