@@ -45,7 +45,61 @@
     {
       "id": 8,
       "title": "Junior React Developer",
+      "salary": 28000,
+      "location": "Nairobi, KE"
+    },
+    {
+      "id": 9,
+      "title": "Junior Node Developer",
+      "salary": 38000,
+      "location": "Nairobi, KE"
+    },
+    {
+      "id": 10,
+      "title": "Junior Python Developer",
+      "salary": 35000,
+      "location": "Mombasa, KE"
+    },
+    {
+      "id": 11,
+      "title": "Junior React Developer",
       "salary": 50000,
+      "location": "Nairobi, KE"
+    },
+    {
+      "id": 12,
+      "title": "Junior Django Developer",
+      "salary": 38000,
+      "location": "Texas, USA"
+    },
+    {
+      "id": 13,
+      "title": "Senior Data Analyst",
+      "salary": 50000,
+      "location": "Australia"
+    },
+    {
+      "id": 14,
+      "title": "Junior React Developer",
+      "salary": 50000,
+      "location": "Nairobi, KE"
+    },
+    {
+      "id": 15,
+      "title": "Junior React Developer",
+      "salary": 20000,
+      "location": "Nakuru, KE"
+    },
+    {
+      "id": 16,
+      "title": "Data Entry & Reporting",
+      "salary": 20000,
+      "location": "Nairobi, KE"
+    },
+    {
+      "id": 17,
+      "title": "Web Developer",
+      "salary": 30000,
       "location": "Nairobi, KE"
     }
   ]

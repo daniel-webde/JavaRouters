@@ -3,7 +3,7 @@ import { BiSolidHelpCircle } from "react-icons/bi";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between p-4 font-serif">
+    <div className="flex justify-between p-2 sm:p-4 font-serif">
       <NavLink
         to="/"
         className=" border-b-2 text-lg md:text-2xl font-bold [&.active]:border-orange-500 transition-colors duration-500"

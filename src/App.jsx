@@ -9,7 +9,7 @@ import "./App.css";
 //Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Careers from "./pages/careers/Careers";
+import Careers, { careersLoader } from "./pages/careers/Careers";
 import NoPage from "./pages/NoPage";
 import FAQ from "./pages/Help/FAQ";
 import Contact from "./pages/Help/Contact";
@@ -30,13 +30,13 @@ function App() {
           <Route path="faq" element={<FAQ />} />
         </Route>
         <Route path="career" element={<Careerlayout />}>
-          <Route index element={<Careers />} />
+          <Route index element={<Careers />} loader={careersLoader} />
         </Route>
 
         <Route path="*" element={<NoPage />} />
       </Route>
-    )
-    // { basename: "/JavaRouters" } // Add the basename
+    ),
+    { basename: "/JavaRouters" } // Add the basename
   );
 
   return <RouterProvider router={router} />;
