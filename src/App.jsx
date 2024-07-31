@@ -13,6 +13,10 @@ import Careers, { careersLoader } from "./pages/careers/Careers";
 import NoPage from "./pages/NoPage";
 import FAQ from "./pages/Help/FAQ";
 import Contact from "./pages/Help/Contact";
+import CareerDetails, {
+  CareerDetailsLoader,
+} from "./pages/careers/CareerDetails";
+import CareersError from "./pages/careers/CareersError";
 
 //Layouts
 import Rootlayout from "./layout/Rootlayout";
@@ -29,8 +33,17 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQ />} />
         </Route>
-        <Route path="career" element={<Careerlayout />}>
+        <Route
+          path="career"
+          element={<Careerlayout />}
+          errorElement={<CareersError />}
+        >
           <Route index element={<Careers />} loader={careersLoader} />
+          <Route
+            path=":id"
+            element={<CareerDetails />}
+            loader={CareerDetailsLoader}
+          />
         </Route>
 
         <Route path="*" element={<NoPage />} />

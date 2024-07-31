@@ -20,19 +20,21 @@ const Contact = () => {
           <span>Your email:</span>
           <input
             type="email"
-            name="email"
-            id="email"
-            className="block mx-auto rounded-lg text-lg shadow-md text-center focus:outline-none py-1 w-full md:w-auto"
+            id="emailInput"
+            className="bg-gray-50 border-b border-gray-300 text-gray-900 rounded-lg w-full ps-10 p-2.5 block shadow-md text-center focus:outline-none sm:max-w-[50%] mx-auto"
+            placeholder="name@flowbite.com"
+            required
           />
         </label>
         <label className="py-3">
           <span>Your message:</span>
           <textarea
             type="text"
-            name=""
-            id=""
-            className="block mx-auto rounded-lg text-lg shadow-md text-center focus:outline-none py-1 w-full md:w-auto"
+            id="message"
+            className="bg-gray-50 border-b border-gray-300 text-gray-900 rounded-lg w-full ps-10 p-2.5 block shadow-md text-center focus:outline-none sm:max-w-[50%] mx-auto"
+            placeholder="name@flowbite.com"
             onChange={handleMessageChange}
+            required
           />
         </label>
         <button

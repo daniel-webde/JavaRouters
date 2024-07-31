@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="px-5 py-4">
+    <div className="px-2 py-4">
       <p>Welcome</p>
       <p className="py-2">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
