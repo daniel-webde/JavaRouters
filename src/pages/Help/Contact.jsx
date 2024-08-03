@@ -32,7 +32,7 @@ const Contact = () => {
             type="text"
             id="message"
             className="bg-gray-50 border-b border-gray-300 text-gray-900 rounded-lg w-full ps-10 p-2.5 block shadow-md text-center focus:outline-none sm:max-w-[50%] mx-auto"
-            placeholder="name@flowbite.com"
+            placeholder="Enter your message or question here"
             onChange={handleMessageChange}
             required
           />

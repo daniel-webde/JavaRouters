@@ -2,7 +2,7 @@ const FAQ = () => {
   return (
     <div className="pt-8 md:mx-8">
       <p className="py-2 md:text-left">Frequently Asked Questions</p>
-      <div className="my-2 px-2 py-3 bg-gray-50 text-left hover:shadow-md duration-300 rounded-sm">
+      <div className="my-2 px-2 py-3 bg-gray-50 text-left shadow-sm shadow-gray-300 sm:shadow-none hover:shadow-md duration-300 rounded-sm">
         <p className="font-bold py-2">Lorem ipsum dolor sit amet.</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quae
@@ -11,7 +11,7 @@ const FAQ = () => {
           consequatur aspernatur sapiente.
         </p>
       </div>
-      <div className="my-2 px-2 py-3 bg-gray-50 text-left hover:shadow-md duration-300 rounded-sm">
+      <div className="my-2 px-2 py-3 bg-gray-50 text-left shadow-sm shadow-gray-300 sm:shadow-none hover:shadow-md duration-300 rounded-sm">
         <p className="font-bold py-2">Lorem ipsum dolor sit amet.</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
@@ -19,7 +19,7 @@ const FAQ = () => {
           magnam!
         </p>
       </div>
-      <div className="my-2 px-2 py-3 bg-gray-50 text-left hover:shadow-md duration-300 rounded-sm">
+      <div className="my-2 px-2 py-3 bg-gray-50 text-left shadow-sm shadow-gray-300 sm:shadow-none hover:shadow-md duration-300 rounded-sm">
         <p className="font-bold py-2">Lorem ipsum dolor sit amet.</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, vero

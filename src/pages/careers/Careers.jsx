@@ -52,6 +52,7 @@ export default Careers;
 //Loader Function
 export const careersLoader = async () => {
   const res = await fetch("http://localhost:4000/career");
+  // const res = await fetch("http://localhost:5000/career");
 
   if (!res.ok) {
     throw Error("Server is Offline!");

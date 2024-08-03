@@ -1,4 +1,5 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 const CareerDetails = () => {
   const { id } = useParams();
@@ -7,8 +8,10 @@ const CareerDetails = () => {
   return (
     <div>
       {/* <hr className="mx-auto bg-gray-400 border-0 rounded-full w-48 h-1 my-2" /> */}
-      <hr className="mx-auto w-[70%] sm:w-[50%] rounded-full bg-gray-100 h-1 mt-2" />
-      <div className="p-2">
+      {/* <hr className="mx-auto w-[70%] sm:w-[50%] rounded-full bg-gray-100 h-1 mt-2" /> */}
+      {/* <Breadcrumbs /> */}
+
+      <div className="px-2">
         <h2>
           Career Details for{" "}
           <span className="font-semibold text-red-700">{career.title}</span>

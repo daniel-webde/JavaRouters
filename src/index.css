@@ -5,3 +5,12 @@
 body {
   scroll-behavior: smooth;
 }
+.breadcrumb .crumb::after {
+  content: ">";
+  color: coral;
+  margin-left: 10px;
+}
+
+.breadcrumb .crumb:last-child::after {
+  display: none;
+}
