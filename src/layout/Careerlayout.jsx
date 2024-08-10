@@ -4,7 +4,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 const Careerlayout = () => {
   return (
     <div>
-      <div className="text-center px-1">
+      <div className="text-center px-1 pt-16 sm:pt-20">
         <h2>Careers</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus

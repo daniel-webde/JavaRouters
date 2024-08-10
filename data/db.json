@@ -4,103 +4,375 @@
       "id": 1,
       "title": "Senior React Developer",
       "salary": 50000,
-      "location": "London, Uk"
+      "location": "London, UK",
+      "job_summary": "Lead development projects using React, mentoring junior developers and ensuring high code quality.",
+      "responsibilities": [
+        "Develop and maintain complex web applications using React.",
+        "Architect and design front-end solutions.",
+        "Collaborate with cross-functional teams to define, design, and ship new features.",
+        "Mentor and guide junior developers.",
+        "Perform code reviews and ensure adherence to best practices."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "5+ years of experience in React development.",
+        "Strong understanding of JavaScript, HTML, and CSS.",
+        "Experience with Redux or other state management libraries.",
+        "Proficiency in version control systems like Git.",
+        "Excellent problem-solving skills and attention to detail."
+      ]
     },
     {
       "id": 2,
       "title": "Senior Node Developer",
       "salary": 54000,
-      "location": "Toronto, Canada"
+      "location": "Toronto, Canada",
+      "job_summary": "Develop and manage scalable server-side applications using Node.js, and work closely with front-end developers.",
+      "responsibilities": [
+        "Design, develop, and deploy server-side applications using Node.js.",
+        "Collaborate with front-end developers to integrate user-facing elements.",
+        "Maintain and improve existing applications.",
+        "Ensure high performance and responsiveness of applications.",
+        "Write clean, scalable, and maintainable code."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "5+ years of experience with Node.js.",
+        "Strong understanding of asynchronous programming and Node.js architecture.",
+        "Experience with RESTful APIs and microservices.",
+        "Familiarity with database technologies like MongoDB, PostgreSQL, or MySQL.",
+        "Excellent communication skills and ability to work in a team."
+      ]
     },
     {
       "id": 3,
       "title": "Junior React Developer",
       "salary": 30000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Assist in the development of web applications using React, under the guidance of senior developers.",
+      "responsibilities": [
+        "Develop user-friendly web applications using React.",
+        "Participate in code reviews and contribute to best practices.",
+        "Collaborate with other developers and designers.",
+        "Fix bugs and improve application performance.",
+        "Document and maintain code."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "1-2 years of experience in React development.",
+        "Basic understanding of JavaScript, HTML, and CSS.",
+        "Familiarity with version control systems like Git.",
+        "Willingness to learn and adapt to new technologies.",
+        "Good problem-solving skills."
+      ]
     },
     {
       "id": 4,
       "title": "Senior Data Analyst",
       "salary": 58000,
-      "location": "Texas, USA"
+      "location": "Texas, USA",
+      "job_summary": "Analyze complex data sets to provide actionable insights and support decision-making processes.",
+      "responsibilities": [
+        "Perform detailed data analysis to identify trends and insights.",
+        "Develop and maintain data models and reporting systems.",
+        "Collaborate with stakeholders to understand their data needs.",
+        "Present data findings and recommendations to management.",
+        "Ensure data accuracy and integrity."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Data Science, Statistics, or related field.",
+        "5+ years of experience in data analysis.",
+        "Proficiency in SQL and data visualization tools like Tableau or Power BI.",
+        "Strong analytical and problem-solving skills.",
+        "Experience with statistical analysis and predictive modeling.",
+        "Excellent communication skills."
+      ]
     },
     {
       "id": 5,
       "title": "Senior React Developer",
       "salary": 48000,
-      "location": "Australia"
+      "location": "Australia",
+      "job_summary": "Lead front-end development projects using React, ensuring code quality and mentoring junior developers.",
+      "responsibilities": [
+        "Design and develop scalable web applications using React.",
+        "Review and improve existing codebases.",
+        "Mentor junior developers and assist in their professional growth.",
+        "Work with UX/UI designers to implement user-friendly interfaces.",
+        "Participate in agile development processes."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "5+ years of React development experience.",
+        "Strong knowledge of JavaScript, HTML, and CSS.",
+        "Experience with state management libraries like Redux.",
+        "Proficiency with Git and version control.",
+        "Excellent team collaboration and communication skills."
+      ]
     },
     {
       "id": 6,
       "title": "Senior React Developer",
       "salary": 50000,
-      "location": "London, Uk"
+      "location": "London, UK",
+      "job_summary": "Lead and contribute to the development of web applications using React, ensuring high standards of code quality.",
+      "responsibilities": [
+        "Develop and maintain high-performance web applications using React.",
+        "Collaborate with cross-functional teams to define and deliver new features.",
+        "Conduct code reviews and enforce coding standards.",
+        "Troubleshoot and debug issues.",
+        "Provide technical leadership and mentoring to junior developers."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "5+ years of experience in React development.",
+        "Deep understanding of JavaScript, HTML, and CSS.",
+        "Experience with Redux or other state management tools.",
+        "Familiarity with testing frameworks and tools.",
+        "Strong analytical and problem-solving skills."
+      ]
     },
     {
       "id": 7,
-      "title": "Senior Promt Engineer",
+      "title": "Senior Prompt Engineer",
       "salary": 45000,
-      "location": "London, Uk"
+      "location": "London, UK",
+      "job_summary": "Design and optimize prompt engineering strategies to enhance natural language processing systems.",
+      "responsibilities": [
+        "Develop and refine prompt strategies for NLP models.",
+        "Analyze and interpret data to improve prompt effectiveness.",
+        "Collaborate with data scientists and engineers to integrate prompts into applications.",
+        "Conduct research to stay updated with the latest advancements in prompt engineering.",
+        "Evaluate and test prompt performance."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science, Engineering, or related field.",
+        "3-5 years of experience in prompt engineering or related field.",
+        "Strong understanding of NLP and machine learning concepts.",
+        "Experience with prompt optimization techniques.",
+        "Familiarity with programming languages such as Python or JavaScript.",
+        "Excellent problem-solving and analytical skills."
+      ]
     },
     {
       "id": 8,
       "title": "Junior React Developer",
       "salary": 28000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Assist in developing and maintaining web applications using React, while learning from experienced developers.",
+      "responsibilities": [
+        "Help build and maintain web applications using React.",
+        "Collaborate with senior developers and contribute to team projects.",
+        "Troubleshoot and resolve issues in the codebase.",
+        "Learn and implement best practices in React development.",
+        "Participate in code reviews and team meetings."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "0-1 years of experience in React development.",
+        "Basic knowledge of JavaScript, HTML, and CSS.",
+        "Willingness to learn and adapt.",
+        "Good communication skills and team spirit.",
+        "Basic understanding of version control systems."
+      ]
     },
     {
       "id": 9,
       "title": "Junior Node Developer",
       "salary": 38000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Support server-side development using Node.js and collaborate with senior developers on backend projects.",
+      "responsibilities": [
+        "Assist in the development of server-side applications using Node.js.",
+        "Work closely with front-end developers to integrate APIs.",
+        "Maintain and update existing backend systems.",
+        "Debug and troubleshoot issues in the codebase.",
+        "Document code and application processes."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "1 year of experience with Node.js.",
+        "Basic understanding of server-side development and RESTful APIs.",
+        "Familiarity with database systems like MongoDB or MySQL.",
+        "Good problem-solving skills and eagerness to learn.",
+        "Strong teamwork and communication abilities."
+      ]
     },
     {
       "id": 10,
       "title": "Junior Python Developer",
       "salary": 35000,
-      "location": "Mombasa, KE"
+      "location": "Mombasa, KE",
+      "job_summary": "Assist in developing and maintaining Python applications, gaining experience in various projects.",
+      "responsibilities": [
+        "Develop and maintain Python applications and scripts.",
+        "Collaborate with other developers on project requirements.",
+        "Write and optimize code for performance and scalability.",
+        "Test and debug applications.",
+        "Document code and processes."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "1 year of experience in Python development.",
+        "Basic knowledge of Python libraries and frameworks.",
+        "Experience with version control systems like Git.",
+        "Strong analytical and problem-solving skills.",
+        "Ability to work independently and in a team."
+      ]
     },
     {
       "id": 11,
       "title": "Junior React Developer",
       "salary": 50000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Work on developing and maintaining web applications using React, with opportunities for growth and learning.",
+      "responsibilities": [
+        "Develop user interfaces and components using React.",
+        "Collaborate with the development team to build new features.",
+        "Fix bugs and improve application performance.",
+        "Follow coding standards and best practices.",
+        "Participate in project meetings and code reviews."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "1-2 years of experience with React.",
+        "Basic understanding of JavaScript, HTML, and CSS.",
+        "Familiarity with version control systems like Git.",
+        "Eagerness to learn and grow in the field.",
+        "Good communication and teamwork skills."
+      ]
     },
     {
       "id": 12,
       "title": "Junior Django Developer",
       "salary": 38000,
-      "location": "Texas, USA"
+      "location": "Texas, USA",
+      "job_summary": "Assist in building and maintaining web applications using Django, with a focus on learning and development.",
+      "responsibilities": [
+        "Help develop and maintain Django-based web applications.",
+        "Collaborate with senior developers and designers.",
+        "Test and debug code to ensure high quality.",
+        "Document development processes and code changes.",
+        "Participate in team meetings and code reviews."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "1 year of experience with Django.",
+        "Basic understanding of Python and web development concepts.",
+        "Experience with version control systems like Git.",
+        "Strong problem-solving skills and attention to detail.",
+        "Ability to work well in a team environment."
+      ]
     },
     {
       "id": 13,
       "title": "Senior Data Analyst",
       "salary": 50000,
-      "location": "Australia"
+      "location": "Australia",
+      "job_summary": "Lead data analysis projects and provide insights to drive business decisions.",
+      "responsibilities": [
+        "Conduct advanced data analysis and create data models.",
+        "Work with stakeholders to define business requirements.",
+        "Develop reports and dashboards to visualize data insights.",
+        "Ensure data accuracy and consistency.",
+        "Stay updated with industry trends and tools."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Data Science, Statistics, or a related field.",
+        "5+ years of experience in data analysis.",
+        "Proficiency in data analysis tools and techniques.",
+        "Experience with data visualization tools like Tableau or Power BI.",
+        "Strong analytical and problem-solving abilities.",
+        "Excellent communication and presentation skills."
+      ]
     },
     {
       "id": 14,
       "title": "Junior React Developer",
       "salary": 50000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Work on creating dynamic and responsive web applications using React, with opportunities for growth.",
+      "responsibilities": [
+        "Develop and maintain React applications.",
+        "Collaborate with other developers and designers.",
+        "Debug and troubleshoot issues in the codebase.",
+        "Participate in code reviews and contribute to best practices.",
+        "Document code and development processes."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "1-2 years of experience with React.",
+        "Basic knowledge of JavaScript, HTML, and CSS.",
+        "Familiarity with version control systems like Git.",
+        "Desire to learn and grow professionally.",
+        "Good teamwork and communication skills."
+      ]
     },
     {
       "id": 15,
       "title": "Junior React Developer",
       "salary": 20000,
-      "location": "Nakuru, KE"
+      "location": "Nakuru, KE",
+      "job_summary": "Entry-level position for developing web applications using React, suitable for recent graduates.",
+      "responsibilities": [
+        "Assist in the development of React applications.",
+        "Follow coding standards and guidelines.",
+        "Work under the supervision of senior developers.",
+        "Learn and apply best practices in React development.",
+        "Contribute to team projects and tasks."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "0-1 years of experience with React.",
+        "Basic understanding of JavaScript, HTML, and CSS.",
+        "Willingness to learn and adapt.",
+        "Good communication skills and enthusiasm to learn.",
+        "Ability to work in a team environment."
+      ]
     },
     {
       "id": 16,
       "title": "Data Entry & Reporting",
       "salary": 20000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Perform data entry tasks and generate reports to support business operations.",
+      "responsibilities": [
+        "Enter and update data in databases and systems.",
+        "Generate and maintain reports based on data analysis.",
+        "Ensure data accuracy and integrity.",
+        "Assist in data cleanup and validation tasks.",
+        "Collaborate with other departments as needed."
+      ],
+      "job_requirements": [
+        "High school diploma or equivalent; relevant certification is a plus.",
+        "Experience with data entry and reporting tools.",
+        "Attention to detail and accuracy.",
+        "Proficiency in Microsoft Office Suite or similar tools.",
+        "Good organizational and time management skills.",
+        "Ability to handle repetitive tasks efficiently."
+      ]
     },
     {
       "id": 17,
       "title": "Web Developer",
       "salary": 30000,
-      "location": "Nairobi, KE"
+      "location": "Nairobi, KE",
+      "job_summary": "Develop and maintain websites and web applications, ensuring functionality and performance.",
+      "responsibilities": [
+        "Design and implement web applications and websites.",
+        "Collaborate with designers to create user-friendly interfaces.",
+        "Ensure web applications are responsive and functional across devices.",
+        "Perform regular updates and maintenance.",
+        "Troubleshoot and resolve issues as they arise."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "2+ years of experience in web development.",
+        "Proficiency in HTML, CSS, JavaScript, and web development frameworks.",
+        "Experience with version control systems like Git.",
+        "Strong problem-solving skills and attention to detail.",
+        "Good communication skills and ability to work in a team."
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const Helplayout = () => {
   return (
-    <div className="p-4 text-center">
+    <div className="p-4 text-center pt-16 sm:pt-20">
       <p className="">Router help</p>
       <p className="pb-4">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, veniam?

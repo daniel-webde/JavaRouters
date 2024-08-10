@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Form } from "react-router-dom";
 
 const Contact = () => {
   const [isWritten, setIsWritten] = useState(false);
@@ -15,7 +16,8 @@ const Contact = () => {
   return (
     <div className="pt-8">
       <p>Contuct us</p>
-      <form action="" className="flex flex-col">
+      <Form method="post" className="flex flex-col">
+        {/* <form action="" className="flex flex-col"> */}
         <label className="py-3">
           <span>Your email:</span>
           <input
@@ -45,7 +47,7 @@ const Contact = () => {
         >
           Submit
         </button>
-      </form>
+      </Form>
     </div>
   );
 };

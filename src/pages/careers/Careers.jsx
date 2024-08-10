@@ -1,16 +1,7 @@
 import { Link, useLoaderData } from "react-router-dom";
-import progress from "../../assets/progress.gif";
 
 const Careers = () => {
   const careers = useLoaderData();
-
-  if (careers.error) {
-    return (
-      <div>
-        <img src={progress} alt="Error" />
-      </div>
-    );
-  }
 
   return (
     <div>

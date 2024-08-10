@@ -26,13 +26,9 @@ const CareerDetails = () => {
         </p>
       </div>
       <div className="p-2">
-        <h3 className="font-bold font-serif">Job Requirements</h3>
-        <p className="pl-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          voluptas qui nobis iure dignissimos numquam exercitationem suscipit
-          debitis quidem sint.
-        </p>
         <h3 className="font-bold font-serif">Job Summary</h3>
+        <p className="pl-2">{career.job_summary}</p>
+        {/* <h3 className="font-bold font-serif">Job Summary</h3>
         <p className="pl-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
           aspernatur repellat sapiente sunt quod enim labore, eligendi aliquid
@@ -40,22 +36,11 @@ const CareerDetails = () => {
           eligendi nesciunt asperiores, eius iure quae dolorem cupiditate quia
           dolorum assumenda similique sed, repellendus veritatis nisi error
           praesentium dicta ad, corrupti consequuntur.
-        </p>
-        <h3 className="font-bold font-serif">Responsibilities</h3>
-        <ul className="pl-2">
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, qui?
-          </li>
-          <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            perspiciatis culpa, libero architecto commodi a accusantium
-            consequuntur suscipit.
-          </li>
-          <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum
-            commodi minus.
-          </li>
-        </ul>
+        </p> */}
+        <h3 className="font-bold font-serif">Job Responsibilities</h3>
+        <p className="pl-2">{career.responsibilities}</p>
+        <h3 className="font-bold font-serif">Job requirements</h3>
+        <p>{career.job_requirements}</p>
       </div>
       <div className="text-center md:rounded-lg w-full sm:max-w-40 p-2 md:p-0 border-2 bg-white sm:mx-auto">
         <Link to="/career">
