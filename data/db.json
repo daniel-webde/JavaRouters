@@ -373,6 +373,292 @@
         "Strong problem-solving skills and attention to detail.",
         "Good communication skills and ability to work in a team."
       ]
+    },
+    {
+      "id": 18,
+      "title": "Software Engineer",
+      "salary": 70000,
+      "location": "San Francisco, USA",
+      "job_summary": "Design, develop, and maintain software applications, ensuring high performance and scalability.",
+      "responsibilities": [
+        "Develop and maintain software applications.",
+        "Collaborate with cross-functional teams to define and implement new features.",
+        "Write clean, scalable, and maintainable code.",
+        "Perform code reviews and ensure adherence to best practices.",
+        "Troubleshoot and debug software issues."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "5+ years of experience in software development.",
+        "Proficiency in programming languages such as Java, C++, or Python.",
+        "Experience with software development methodologies like Agile.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork skills."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Data Scientist",
+      "salary": 85000,
+      "location": "New York, USA",
+      "job_summary": "Analyze complex data sets to extract insights and build predictive models to support decision-making.",
+      "responsibilities": [
+        "Collect, clean, and analyze large data sets.",
+        "Develop and implement machine learning models.",
+        "Collaborate with stakeholders to understand business needs.",
+        "Present data findings and insights to management.",
+        "Stay updated with the latest data science techniques and tools."
+      ],
+      "job_requirements": [
+        "Master's degree in Data Science, Statistics, or related field.",
+        "3+ years of experience in data science.",
+        "Proficiency in Python, R, or other data science tools.",
+        "Experience with machine learning frameworks like TensorFlow or PyTorch.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication and presentation skills."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Cybersecurity Specialist",
+      "salary": 75000,
+      "location": "Washington, D.C., USA",
+      "job_summary": "Protect an organization's computer systems and networks from cyber threats and ensure data security.",
+      "responsibilities": [
+        "Monitor and analyze security threats and vulnerabilities.",
+        "Implement and manage security measures to protect systems and data.",
+        "Conduct regular security audits and risk assessments.",
+        "Respond to and mitigate security incidents.",
+        "Stay updated with the latest cybersecurity trends and technologies."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Cybersecurity, Computer Science, or related field.",
+        "3+ years of experience in cybersecurity.",
+        "Knowledge of security frameworks and protocols.",
+        "Experience with security tools like firewalls, IDS/IPS, and SIEM.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication and teamwork abilities."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Cloud Engineer",
+      "salary": 80000,
+      "location": "Seattle, USA",
+      "job_summary": "Design, implement, and manage cloud-based systems and infrastructure to support business operations.",
+      "responsibilities": [
+        "Design and deploy cloud-based solutions.",
+        "Manage and optimize cloud infrastructure.",
+        "Collaborate with development teams to ensure seamless integration.",
+        "Monitor and troubleshoot cloud systems.",
+        "Ensure security and compliance of cloud environments."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in cloud engineering.",
+        "Proficiency in cloud platforms like AWS, Azure, or Google Cloud.",
+        "Experience with containerization and orchestration tools like Docker and Kubernetes.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and collaboration skills."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "DevOps Engineer",
+      "salary": 78000,
+      "location": "Austin, USA",
+      "job_summary": "Bridge the gap between development and operations teams to ensure efficient and reliable software delivery.",
+      "responsibilities": [
+        "Implement and manage CI/CD pipelines.",
+        "Automate infrastructure and deployment processes.",
+        "Monitor and optimize system performance.",
+        "Collaborate with development and operations teams.",
+        "Ensure security and compliance of systems."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in DevOps.",
+        "Proficiency in tools like Jenkins, GitLab, or CircleCI.",
+        "Experience with cloud platforms and containerization.",
+        "Strong scripting and automation skills.",
+        "Excellent communication and teamwork abilities."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "AI/ML Engineer",
+      "salary": 90000,
+      "location": "Boston, USA",
+      "job_summary": "Design and implement artificial intelligence and machine learning models to solve complex problems.",
+      "responsibilities": [
+        "Develop and deploy machine learning models.",
+        "Collaborate with data scientists and engineers.",
+        "Optimize models for performance and scalability.",
+        "Stay updated with the latest AI/ML technologies.",
+        "Present findings and insights to stakeholders."
+      ],
+      "job_requirements": [
+        "Master's degree in Computer Science, AI, or related field.",
+        "3+ years of experience in AI/ML engineering.",
+        "Proficiency in Python, TensorFlow, or PyTorch.",
+        "Experience with data preprocessing and model training.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication and presentation skills."
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Database Administrator",
+      "salary": 65000,
+      "location": "Chicago, USA",
+      "job_summary": "Manage and maintain an organization's databases to ensure data integrity, security, and performance.",
+      "responsibilities": [
+        "Install, configure, and maintain database systems.",
+        "Monitor and optimize database performance.",
+        "Implement backup and recovery strategies.",
+        "Ensure data security and compliance.",
+        "Collaborate with developers and other stakeholders."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in database administration.",
+        "Proficiency in SQL and database management systems like MySQL, PostgreSQL, or Oracle.",
+        "Experience with database security and performance tuning.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork abilities."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "IT Support Specialist",
+      "salary": 45000,
+      "location": "Dallas, USA",
+      "job_summary": "Provide technical support and assistance to ensure the smooth operation of IT systems and infrastructure.",
+      "responsibilities": [
+        "Troubleshoot and resolve hardware and software issues.",
+        "Install and configure computer systems and applications.",
+        "Provide technical support to end-users.",
+        "Maintain and update IT documentation.",
+        "Ensure security and compliance of IT systems."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Information Technology or related field.",
+        "2+ years of experience in IT support.",
+        "Knowledge of operating systems and software applications.",
+        "Strong problem-solving and communication skills.",
+        "Ability to work independently and in a team.",
+        "Customer service-oriented mindset."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Network Engineer",
+      "salary": 70000,
+      "location": "Atlanta, USA",
+      "job_summary": "Design, implement, and manage an organization's network infrastructure to ensure connectivity and performance.",
+      "responsibilities": [
+        "Design and deploy network solutions.",
+        "Monitor and optimize network performance.",
+        "Troubleshoot and resolve network issues.",
+        "Implement network security measures.",
+        "Collaborate with other IT teams and stakeholders."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in network engineering.",
+        "Proficiency in networking protocols and technologies.",
+        "Experience with network monitoring and security tools.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork abilities."
+      ]
+    },
+    {
+      "id": 27,
+      "title": "UI/UX Designer",
+      "salary": 60000,
+      "location": "Los Angeles, USA",
+      "job_summary": "Design user interfaces and experiences to create intuitive and engaging digital products.",
+      "responsibilities": [
+        "Conduct user research and usability testing.",
+        "Create wireframes, prototypes, and design mockups.",
+        "Collaborate with developers and product managers.",
+        "Ensure consistency and usability across products.",
+        "Stay updated with the latest design trends and tools."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Design, HCI, or related field.",
+        "3+ years of experience in UI/UX design.",
+        "Proficiency in design tools like Sketch, Figma, or Adobe XD.",
+        "Strong understanding of user-centered design principles.",
+        "Excellent communication and collaboration skills.",
+        "Portfolio showcasing design projects."
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Mobile App Developer",
+      "salary": 72000,
+      "location": "Miami, USA",
+      "job_summary": "Develop and maintain mobile applications for iOS and Android platforms, ensuring high performance and user satisfaction.",
+      "responsibilities": [
+        "Design and develop mobile applications.",
+        "Collaborate with designers and product managers.",
+        "Optimize apps for performance and usability.",
+        "Test and debug applications.",
+        "Stay updated with the latest mobile development trends."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in mobile app development.",
+        "Proficiency in Swift, Kotlin, or React Native.",
+        "Experience with mobile app testing and debugging.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork abilities."
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Game Developer",
+      "salary": 68000,
+      "location": "San Diego, USA",
+      "job_summary": "Design and develop video games for various platforms, ensuring engaging and immersive experiences.",
+      "responsibilities": [
+        "Develop game mechanics and features.",
+        "Collaborate with artists and designers.",
+        "Optimize games for performance and compatibility.",
+        "Test and debug games.",
+        "Stay updated with the latest game development trends."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in game development.",
+        "Proficiency in game engines like Unity or Unreal Engine.",
+        "Experience with 3D modeling and animation.",
+        "Strong problem-solving skills and creativity.",
+        "Excellent communication and teamwork abilities."
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Blockchain Developer",
+      "salary": 95000,
+      "location": "San Jose, USA",
+      "job_summary": "Design and implement blockchain-based solutions to support decentralized applications and systems.",
+      "responsibilities": [
+        "Develop and deploy blockchain applications.",
+        "Collaborate with stakeholders to define requirements.",
+        "Ensure security and scalability of blockchain solutions.",
+        "Stay updated with the latest blockchain technologies.",
+        "Present findings and insights to stakeholders."
+      ],
+      "job_requirements": [
+        "Bachelor's degree in Computer Science or related field.",
+        "3+ years of experience in blockchain development.",
+        "Proficiency in blockchain platforms like Ethereum or Hyperledger.",
+        "Experience with smart contracts and cryptography.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication and presentation skills."
+      ]
     }
   ]
 }

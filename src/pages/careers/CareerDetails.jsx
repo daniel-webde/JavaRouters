@@ -5,46 +5,45 @@ const CareerDetails = () => {
   const { id } = useParams();
   const career = useLoaderData();
 
+  if (!career) {
+    return <p className="text-center text-gray-500">Loading career details...</p>;
+  }
+
   return (
-    <div>
-      {/* <hr className="mx-auto bg-gray-400 border-0 rounded-full w-48 h-1 my-2" /> */}
-      {/* <hr className="mx-auto w-[70%] sm:w-[50%] rounded-full bg-gray-100 h-1 mt-2" /> */}
+    <div className="sm:p-4">
+      {/* Uncomment if Breadcrumbs are needed */}
       {/* <Breadcrumbs /> */}
 
       <div className="px-2">
-        <h2>
-          Career Details for{" "}
-          <span className="font-semibold text-red-700">{career.title}</span>
+        <h2 className="text-xl font-semibold text-gray-800">
+          Career Details for <span className="text-red-700">{career.title}</span>
         </h2>
         <p>
-          Starting salary:{" "}
+          <strong>Starting salary:</strong>{" "}
           <span className="font-semibold text-red-700">{career.salary}</span>
         </p>
         <p>
-          Location:{" "}
+          <strong>Location:</strong>{" "}
           <span className="font-semibold text-red-700">{career.location}</span>
         </p>
       </div>
+
       <div className="p-2">
-        <h3 className="font-bold font-serif">Job Summary</h3>
-        <p className="pl-2">{career.job_summary}</p>
-        {/* <h3 className="font-bold font-serif">Job Summary</h3>
-        <p className="pl-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-          aspernatur repellat sapiente sunt quod enim labore, eligendi aliquid
-          dolor nobis asperiores minus nesciunt et eius suscipit sit? Sint
-          eligendi nesciunt asperiores, eius iure quae dolorem cupiditate quia
-          dolorum assumenda similique sed, repellendus veritatis nisi error
-          praesentium dicta ad, corrupti consequuntur.
-        </p> */}
-        <h3 className="font-bold font-serif">Job Responsibilities</h3>
-        <p className="pl-2">{career.responsibilities}</p>
-        <h3 className="font-bold font-serif">Job requirements</h3>
-        <p>{career.job_requirements}</p>
+        <h3 className="font-bold font-serif text-lg">Job Summary</h3>
+        <p className="pl-2 text-gray-700">{career.job_summary || "No summary available"}</p>
+
+        <h3 className="font-bold font-serif text-lg mt-2">Job Responsibilities</h3>
+        <p className="pl-2 text-gray-700">{career.responsibilities || "Not specified"}</p>
+
+        <h3 className="font-bold font-serif text-lg mt-2">Job Requirements</h3>
+        <p className="pl-2 text-gray-700">{career.job_requirements || "Not specified"}</p>
       </div>
-      <div className="text-center md:rounded-lg w-full sm:max-w-40 p-2 md:p-0 border-2 bg-white sm:mx-auto">
-        <Link to="/career">
-          <p className="bg-orange-500 p-1 text-lg rounded-md">Apply</p>
+
+      <div className="text-center mt-4">
+        <Link to={`/apply/${id}`}>
+          <button className="bg-orange-500 text-white py-2 px-4 text-lg rounded-md shadow-md hover:bg-orange-600 transition">
+            Apply
+          </button>
         </Link>
       </div>
     </div>
@@ -53,14 +52,18 @@ const CareerDetails = () => {
 
 export default CareerDetails;
 
-//Loader function
-export const CareerDetailsLoader = async ({ params }) => {
-  const { id } = params;
-  const res = await fetch(`http://localhost:4000/career/${id}`);
+// Loader function
+export const careerDetailsLoader = async ({ params }) => {
+  try {
+    const res = await fetch(`http://localhost:4000/career/${params.id}`);
 
-  if (!res.ok) {
-    throw Error("Could not find that career");
+    if (!res.ok) {
+      throw new Error("Could not find that career");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.error(error);
+    throw error;
   }
-
-  return res.json();
 };

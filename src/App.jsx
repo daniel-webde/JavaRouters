@@ -14,7 +14,7 @@ import NoPage from "./pages/NoPage";
 import FAQ from "./pages/Help/FAQ";
 import Contact from "./pages/Help/Contact";
 import CareerDetails, {
-  CareerDetailsLoader,
+  careerDetailsLoader,
 } from "./pages/careers/CareerDetails";
 import CareersError from "./pages/careers/CareersError";
 
@@ -42,7 +42,7 @@ function App() {
           <Route
             path=":id"
             element={<CareerDetails />}
-            loader={CareerDetailsLoader}
+            loader={careerDetailsLoader}
           />
         </Route>
 
