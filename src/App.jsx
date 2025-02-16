@@ -28,6 +28,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="help" element={<Helplayout />}>
+          <Route index element={<Contact />} />{" "}
+          {/* Contact is the default page */}
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQ />} />
         </Route>
@@ -36,11 +38,8 @@ function App() {
           element={<Careerlayout />}
           errorElement={<CareersError />}
         >
-          <Route index element={<Careers />}/>
-          <Route
-            path=":id"
-            element={<CareerDetails />}
-          />
+          <Route index element={<Careers />} />
+          <Route path=":id" element={<CareerDetails />} />
         </Route>
 
         <Route path="*" element={<NoPage />} />
