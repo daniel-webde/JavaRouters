@@ -1,13 +1,11 @@
 import { useState } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { careersData } from "../../../data/data.js";
 
 const Careers = () => {
-  const careers = useLoaderData();
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const [searchQuery, setSearchQuery] = useState('');
-
-  //Filtering careers based on search query
-  const filteredCareers = careers.filter((career) => 
+  const filteredCareers = careersData.filter((career) =>
     career.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
@@ -16,7 +14,6 @@ const Careers = () => {
       <div className="p-2">
         <input
           type="text"
-          id="search"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="bg-gray-50 border border-gray-300 text-gray-900
@@ -25,64 +22,25 @@ const Careers = () => {
           placeholder="Search"
         />
       </div>
-      <div className="">
-        {filteredCareers.length > 0 ? filteredCareers.map((career) => 
-        <Link to={career.id.toString()} key={career.id}>
-             <div className="mx-2 my-2 px-2 py-3 bg-gray-50 hover:shadow-md duration-300 rounded-sm flex justify-between">
-               <div className="">
-                 {" "}
-                 <p className="font-serif font-semibold text-slate-800 hover:text-orange-600">
-                   {career.title}
-                 </p>
-                 <p className="text-gray-80 text-zinc-700 text-sm">
-                   Based in {career.location}
-                 </p>
-               </div>
-  
-               <p className="my-auto text-2xl font-extrabold font-serif text-gray-400 mr-2 cursor-pointer">
-                 &gt;
-               </p>
-             </div>
-           </Link>
-        ) : <p>No career found</p>}
+      <div>
+        {filteredCareers.length > 0 ? (
+          filteredCareers.map((career) => (
+            <Link to={`/career/${career.id}`} key={career.id}>
+              <div className="mx-2 my-2 px-2 py-3 bg-gray-50 hover:shadow-md duration-300 rounded-sm flex justify-between">
+                <div>
+                  <p className="font-serif font-semibold text-slate-800 hover:text-orange-600">{career.title}</p>
+                  <p className="text-gray-700 text-sm">Based in {career.location}</p>
+                </div>
+                <p className="my-auto text-2xl font-extrabold font-serif text-gray-400 mr-2 cursor-pointer">&gt;</p>
+              </div>
+            </Link>
+          ))
+        ) : (
+          <p>No career found</p>
+        )}
       </div>
-
-       {/* {careers.map((career) => ( */}
-
-      {/* //   <Link to={career.id.toString()} key={career.id}>
-      //     <div className="mx-2 my-2 px-2 py-3 bg-gray-50 hover:shadow-md duration-300 rounded-sm flex justify-between">
-      //       <div className="">
-      //         {" "}
-      //         <p className="font-serif font-semibold text-slate-800 hover:text-orange-600">
-      //           {career.title}
-      //         </p>
-      //         <p className="text-gray-80 text-zinc-700 text-sm">
-      //           Based in {career.location}
-      //         </p>
-      //       </div>
-
-      //       <p className="my-auto text-2xl font-extrabold font-serif text-gray-400 mr-2 cursor-pointer">
-      //         &gt;
-      //       </p>
-      //     </div>
-      //   </Link>
-      // ))} */}
-      
     </div>
   );
 };
 
-
 export default Careers;
-
-//Loader Function
-export const careersLoader = async () => {
-  const res = await fetch("http://localhost:4000/career");
-  // const res = await fetch("http://localhost:5000/career");
-
-  if (!res.ok) {
-    throw Error("Server is Offline!");
-  }
-
-  return res.json();
-};
