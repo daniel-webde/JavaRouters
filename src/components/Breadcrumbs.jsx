@@ -20,7 +20,7 @@ const Breadcrumbs = () => {
     });
 
   return (
-    <div className="breadcrumb flex justify-center px-2 mt-1 text-gray-400 font-bold text-">
+    <div className="breadcrumb flex justify-center px-2 mt-1 text-gray-400 font-bold font-edu">
       {crumbs}
     </div>
   );

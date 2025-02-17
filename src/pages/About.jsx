@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="px-2 py-4 pt-16 sm:pt-20 font-edu">
+    <div className="px-2 py-4 pt-16 sm:pt-20">
       <p>About</p>
       <p className="py-2">
         At Java-Routers, we focus on simplifying web development through

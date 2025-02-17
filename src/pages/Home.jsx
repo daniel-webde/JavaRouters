@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="px-2 py-4 font-edu pt-16 sm:pt-20">
+    <div className="px-2 py-4 pt-16 sm:pt-20">
       <p className="font-bold">Welcome to JavaRouters</p>
       <p>Find Your Dream Job in Tech!</p>
       <p className="py-2">

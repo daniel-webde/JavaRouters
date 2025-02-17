@@ -6,7 +6,7 @@ const Careerlayout = () => {
     <div>
       <div className="text-center px-1 pt-16 sm:pt-20">
         <h2>Careers</h2>
-        <p>
+        <p className=" font-edu">
           <spam className="text-red-600">At Java-Routers</spam>, we believe in
           innovation and teamwork.{" "}
           <spam className="text-red-600">Discover</spam> career paths that will
